@@ -1,0 +1,13 @@
+{
+  "name": "framework-mercurios",
+  "version": "0.0.1",
+  "authors": [
+    "Mário Brandão <mariobrandaobr@hotmail.com>",
+    "Tassiano Alencar <tassianomec@icloud.com>"
+  ],
+  "description": "Framework para Txuflay",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": ">=2.1"
+  }
+}

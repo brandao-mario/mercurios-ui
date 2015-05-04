@@ -1,0 +1,261 @@
+@charset "utf-8";
+
+/*
+	Sistema de Grid - Mercurios
+*/
+
+.container{
+	width: 100%;
+	text-align: center;
+}
+
+.outer{
+	background: #ecf0f1;
+	/* Para planos de fundo em 100% */
+}
+
+.wrapper{
+	width: 70%;
+	display: inline-block;
+	padding: 0 2%;
+	margin: 0 auto;
+	background: white;
+}
+
+[class*="larg"]{
+	margin: 0.5em 0.5%;
+	padding: 0.5em 1%;
+	float: left;
+	min-height: 20px;
+	/* Para Teste */
+	background: #ecf0f1;
+}
+
+.larg-1{
+	width: 3.25%;
+}
+
+.larg-2{
+	width: 9.5%;
+}
+
+.larg-3{
+	width: 15.75%;
+}
+
+.larg-4{
+	width: 22%;
+}
+
+.larg-5{
+	width: 28.25%;
+}
+
+.larg-6{
+	width: 34.5%;
+}
+
+.larg-7{
+	width: 40.75%;
+}
+
+.larg-8{
+	width: 47%;
+}
+
+.larg-9{
+	width: 53%;
+}
+
+.larg-10{
+	width: 59%;
+}
+
+.larg-11{
+	width: 65%;
+}
+
+.larg-12{
+	width: 71%;
+}
+
+.larg-13{
+	width: 77%;
+}
+
+.larg-14{
+	width: 83%;
+}
+
+.larg-15{
+	width: 89%;
+}
+
+.larg-16{
+	width: 97%;
+}
+
+.larg-full{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/*
+	Offset
+*/
+
+.offset-1{
+	margin-left: 8.5%;
+}
+
+.offset-2{
+	margin-left: 14.5%;
+}
+
+.offset-3{
+	margin-left: 20.5%;
+}
+
+.offset-4{
+	margin-left: 26.5%;
+}
+
+.offset-5{
+	margin-left: 22.5%;
+}
+
+.offset-6{
+	margin-left: 38.5%;
+}
+
+.offset-7{
+	margin-left: 44.5%;
+}
+
+.offset-8{
+	margin-left: 50.5%;
+}
+
+.offset-9{
+	margin-left: 56%;
+}
+
+.offset-10{
+	margin-left: 62.5%;
+}
+
+.offset-11{
+	margin-left: 68.5%;
+}
+
+.offset-12{
+	margin-left: 74.5%;
+}
+
+.offset-13{
+	margin-left: 80.5%;
+}
+
+.offset-14{
+	margin-left: 86.5%;
+}
+
+.offset-15{
+	margin-left: 92.5%;
+}
+
+/*
+	Visibilidade
+*/
+
+.visible-phone, .visible-tablet, .hidden-desktop{
+	visibility: hidden;
+	display: none;
+}
+
+.visible-desktop, .hidden-phone, .hidden-tablet{
+	visibility: visible;
+	display: block;
+}
+
+/*
+	Grid Mobile / Visibilidade em Mobile
+*/
+
+@media (max-width: 1024px){
+	.wrapper{
+		width: 80%;
+	}
+
+	.visile-phone, .visible-desktop, .hidden-tablet{
+		visibility: hidden;
+		display: none;
+	}
+
+	.visible-tablet, .hidden-phone, .hidden-desktop{
+		visibility: visible;
+		display: block;
+	}
+}
+
+@media (max-width: 768px){
+	.wrapper{
+		width: 90%;
+	}
+}
+
+@media (max-width: 640px){
+	.wrapper{
+		width: 98%;
+		padding: 0 1%;
+	}
+
+	[class*="offset"]{
+		margin-left: 0.5%;
+	}
+
+	[class*="sm-larg-"]{
+		float: left;
+	}
+
+	.sm-larg-1{
+		width: 13.667%;
+	}
+
+	.sm-larg-2{
+		width: 30.33%;
+	}
+
+	.sm-larg-3{
+		width: 47%;
+	}
+
+	.sm-larg-4{
+		width: 63.67%;
+	}
+
+	.sm-larg-5{
+		width: 80.34%;
+	}
+
+	.sm-larg-6{
+		width: 97%;
+	}
+
+	.sm-larg-full{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	.visible-tablet, .visible-desktop, .hidden-phone{
+		visibility: hidden;
+		display: none;
+	}
+
+	.visible-phone, .hidden-tablet, .hidden-desktop{
+		visibility: visible;
+		display: block;
+	}
+}
