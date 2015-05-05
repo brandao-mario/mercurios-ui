@@ -1,9 +1,10 @@
 @charset "utf-8";
 
-/*
-	Sistema de Grid - Mercurios
-*/
-
+/**
+ * ----------------------------------------
+ * Sistema de grids - Mercurios ui
+ * ----------------------------------------
+ */
 .container{
 	width: 100%;
 	text-align: center;
@@ -101,10 +102,11 @@
 	padding: 0;
 }
 
-/*
-	Offset
-*/
-
+/**
+ * ----------------------------------------
+ * Offsets
+ * ----------------------------------------
+ */
 .offset-1{
 	margin-left: 8.5%;
 }
@@ -165,10 +167,11 @@
 	margin-left: 92.5%;
 }
 
-/*
-	Visibilidade
-*/
-
+/**
+ * ----------------------------------------
+ * Visibilidade
+ * ----------------------------------------
+ */
 .visible-phone, .visible-tablet, .hidden-desktop{
 	visibility: hidden;
 	display: none;
@@ -179,10 +182,11 @@
 	display: block;
 }
 
-/*
-	Grid Mobile / Visibilidade em Mobile
-*/
-
+/**
+ * ----------------------------------------
+ * Grid Mobile e Visibilidade em Mobile
+ * ----------------------------------------
+ */
 @media (max-width: 1024px){
 	.wrapper{
 		width: 80%;
