@@ -8,6 +8,8 @@
     "description": "Framework front-end",
     "license": "MIT",
     "dependencies": {
-        "jquery": ">=2.1"
+        "jquery": ">=2.1",
+        "animate.css": "*",
+        "less": "*"
     }
 }

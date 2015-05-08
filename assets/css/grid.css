@@ -21,7 +21,7 @@
 }
 
 .wrapper{
-	width: 70%;
+	width: 75%;
 	display: inline-block;
 	padding: 0 2%;
 	margin: 0 auto;
@@ -195,9 +195,6 @@
  */
 
 @media (max-width: 1024px){
-	.wrapper{
-		width: 80%;
-	}
 
 	.visile-phone, .visible-desktop, .hidden-tablet{
 		visibility: hidden;
@@ -214,13 +211,6 @@
 	.wrapper{
 		width: 90%;
 	}
-}
-
-@media (max-width: 640px){
-	.wrapper{
-		width: 98%;
-		padding: 0 1%;
-	}
 
 	[class*="offset-"]{
 		margin-left: 0.5%;
@@ -228,36 +218,44 @@
 
 	[class*="sm-larg-"]{
 		float: left;
+		margin: 1em 1%;
 	}
 
 	.sm-larg-1{
-		width: 13.667%;
+		width: 12.667%;
 	}
 
 	.sm-larg-2{
-		width: 30.33%;
+		width: 29.33%;
 	}
 
 	.sm-larg-3{
-		width: 47%;
+		width: 46%;
 	}
 
 	.sm-larg-4{
-		width: 63.67%;
+		width: 62.67%;
 	}
 
 	.sm-larg-5{
-		width: 80.34%;
+		width: 79.34%;
 	}
 
 	.sm-larg-6{
-		width: 97%;
+		width: 96%;
 	}
 
 	.sm-larg-full{
 		width: 100%;
 		margin: 0;
 		padding: 0;
+	}
+}
+
+@media (max-width: 640px){
+	.wrapper{
+		width: 98%;
+		padding: 0 1%;
 	}
 
 	.visible-tablet, .visible-desktop, .hidden-phone{

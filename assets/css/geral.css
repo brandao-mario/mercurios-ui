@@ -67,34 +67,6 @@ table {
  * ----------------------------------------
  */
 
-
-
-/**
- * ----------------------------------------
- * Cores
- * ----------------------------------------
- */
-
-.bg-black{
-	background: black;
-}
-
-.bg-white{
-	background: #FEFEFE;
-}
-
-.bg-red{
-	background: red;
-}
-
-.bg-blue{
-	background: blue;
-}
-
-.bg-green{
-	background: #19D0AC;
-}
-
 /**
  * ----------------------------------------
  * Textos
@@ -131,11 +103,10 @@ p{
 	padding: 0.5em 0;
 }
 
-
 /**
- * ----------------------------------------
+ * --------------------
  * Títulos Aumentados
- * ----------------------------------------
+ * --------------------
  */
 
 .larger{
@@ -174,12 +145,13 @@ h5.larger{
 
 .navbar{
 	text-align: center;
+	width: auto;
 }
 
 .navbar li{
 	list-style: none;
 	color: white;
-	padding: 1.5em 5%;
+	padding: 2em 3%;
 	display: inline-block;
 }
 
@@ -206,7 +178,6 @@ h5.larger{
 	display: block;
 }
 
-
 /**
  * ----------------------------------------
  * Floating
@@ -219,6 +190,58 @@ h5.larger{
 
 .float-r{
 	float: right;
+}
+
+
+/**
+ * ----------------------------------------
+ * Cores - Planos de Fundo
+ * ----------------------------------------
+ */
+
+.black{
+	color: #525252;
+}
+
+.white{
+	color: white;
+}
+
+.red{
+	background: #EF8E7D;
+}
+
+.blue{
+	background: #518FB9;
+}
+
+.green{
+	background: #86BB6A;
+}
+
+[class*="bg-"]{
+	color: white;
+}
+
+.bg-black{
+	background: #525252;
+}
+
+.bg-white{
+	background: #FEFEFE;
+	color: #525252;
+}
+
+.bg-red{
+	background: #EF8E7D;
+}
+
+.bg-blue{
+	background: #518FB9;
+}
+
+.bg-green{
+	background: #86BB6A;
 }
 
 /**
@@ -264,6 +287,54 @@ h5.larger{
 
 /**
  * ----------------------------------------
+ * Botões
+ * ----------------------------------------
+ */
+
+[class*="btn"]{
+	float: left;
+	cursor: pointer;
+	padding: 15px;
+	margin: 0.5em 1%;
+	color: white;
+	text-decoration: none;
+	background: #3C8DC5;
+}
+
+.btn-success{
+	background: #6FB7E9;
+}
+
+.btn-black{
+	background: #525252;
+}
+
+.btn-white{
+	background: #FEFEFE;
+	color: #525252;
+}
+
+.btn-red{
+	background: #EF8E7D;
+}
+
+.btn-blue{
+	background: #6FB7E9;
+}
+
+.btn-green{
+	background: #19D0AC;
+}
+
+.btn-link{
+	color: #6FB7E9;
+	background: none;
+}
+
+
+
+/**
+ * ----------------------------------------
  * Páginas
  * ----------------------------------------
  */
@@ -282,15 +353,14 @@ h5.larger{
 .logo{
 	padding: 0;
 	margin: 0;
-	width: 180px;
-	height: auto;
 	float: left;
 }
 
 .logo img{
-	float: left;
-	width: inherit;
+	width: 80%;
+	max-width: 300px;
 	height: auto;
+	margin: auto;
 }
 
 .intro{
@@ -306,4 +376,61 @@ h5.larger{
 	letter-spacing: 2px;
 	margin-top: -30px;
 	text-transform: uppercase;
+}
+
+
+
+@media (max-width: 768px){
+
+	.aside .navbar li{
+		display: inline-block;
+	}
+}
+
+@media (max-width: 640px){
+	.larger{
+		font-weight: 100;
+	}
+
+	h1.larger{
+		font-size: 3em;
+	}
+
+	h2.larger{
+		font-size: 2.5em;
+	}
+
+	h3.larger{
+		font-size: 2em;
+	}
+
+	h4.larger{
+		font-size: 1.5em;
+	}
+
+	h5.larger{
+		font-size: 1em;
+	}
+
+	/**
+	 * ----------------------------------------
+	 * Páginas
+	 * ----------------------------------------
+	 */
+
+
+	/**
+	 * -------------------
+	 * Index
+	 * -------------------
+	 */
+	
+	.logo{
+		width: 45%;
+		margin: 0 27.5%;
+	}
+	
+	.logo img{
+		width: 97%;
+	}
 }
