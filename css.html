@@ -8,10 +8,12 @@
 	<!-- Folhas de estilo divididas por função -->
 	<link rel="stylesheet" href="assets/css/grid.css">
 	<link rel="stylesheet" href="assets/css/geral.css">
+	<link rel="stylesheet" href="assets/css/forms.css">
 </head>
 <body>
 	<div class="container">
 
+		<!-- Topo -->
 		<div class="top larg-full bg-white">
 			<div class="logo larg-4 sm-larg-full">
 				<a href="index.html"><img src="assets/img/mercurios.png" alt="Mercurios"></a>
@@ -26,37 +28,39 @@
 				</ol>
 			</div>
 		</div>
-
+		<!-- Aside -->
 		<div class="outer-nav aside larg-3 sm-larg-full bg-white">
 			<ol class="navbar">
-				<li><a href="media-queries.html">Botões</a></li>
-				<li><a href="media-queries.html">Formulários</a></li>
-				<li><a href="temas.html">Tabelas</a></li>
-				<li><a href="grid.html">Tipografia</a></li>
-				<li><a href="media-queries.html">Ícones</a></li>
-				<li><a href="media-queries.html">Imagens</a></li>
+				<li class="border-b"><a href="#botoes">Botões</a></li>
+				<li class="border-b"><a href="#forms">Formulários</a></li>
+				<li class="border-b"><a href="#tabelas">Tabelas</a></li>
+				<li class="border-b"><a href="#tipos">Tipografia</a></li>
+				<li class="border-b"><a href="#icones">Ícones</a></li>
+				<li class="border-b"><a href="#imagens">Imagens</a></li>
 			</ol>
 		</div>
-
+		<!-- Conteúdo -->
 		<div class="wrapper">
 			<div class="larg-16">
-				<header>
+
+				<!-- Botões -->
+				<header class="larg-full">
 					<hgroup>
-						<h2 class="larger">Botões</h2>
+						<h2 id="botoes" class="larger">Botões</h2>
 					</hgroup>
 				</header>
 				<div class="larg-16">
-					<h4 class="larger">Default</h4>
+					<h4 class="larger align-l">Default</h4>
 					<a href="#" class="btn">.btn</a>
 					<a href="#" class="btn-red">.btn-red</a>
 					<a href="#" class="btn-blue">.btn-blue</a>
 					<a href="#" class="btn-green">.btn-green</a>
 					<a href="#" class="btn-black">.btn-black</a>
-					<a href="#" class="btn-white">.border</a>
+					<a href="#" class="btn-white">.btn-white</a>
 					<a href="#" class="btn-link">.btn-link</a>
 				</div>
 				<div class="larg-16">
-					<h4 class="larger">Bordered</h4>
+					<h4 class="larger align-l">Bordered</h4>
 					<a href="#" class="btn border">.border</a>
 					<a href="#" class="btn-red border">.border</a>
 					<a href="#" class="btn-blue border">.border</a>
@@ -66,15 +70,79 @@
 					<a href="#" class="btn-link border">.border</a>
 				</div>
 				<div class="larg-16">
-					<h4 class="larger">Rounded</h4>
+					<h4 class="larger align-l">Rounded</h4>
 					<a href="#" class="btn rounded">.rounded</a>
 					<a href="#" class="btn-red rounded">.rounded</a>
 					<a href="#" class="btn-blue rounded">.rounded</a>
 					<a href="#" class="btn-green rounded">.rounded</a>
 					<a href="#" class="btn-black rounded">.rounded</a>
-					<a href="#" class="btn-white border rounded">.border</a>
+					<a href="#" class="btn-white border rounded">.rounded</a>
 					<a href="#" class="btn-link border rounded">.rounded</a>
 				</div>
+
+				<!-- Forms -->
+				<header class="larg-full">
+					<hgroup>
+						<h2 id="forms" class="larger">Formulários</h2>
+					</hgroup>
+				</header>
+				<div class="larg-8">
+					<form>
+						<fieldset>
+							<label>Nome do título</label>
+							<input type="text" placeholder="Digite algo...">
+							<textarea name="" id="" cols="30" rows="10" placeholder="Sua textarea..."></textarea>
+						</fieldset>
+					</form>
+				</div>
+				<div class="larg-8">
+					<pre>&lt;form&gt;<br>	&lt;fieldset&gt;<br>		&lt;label&gt;Nome do título&lt;/label&gt;<br>		&lt;input type="text" placeholder="Digite algo..."&gt;<br>		&lt;textarea name="areaMensagem" cols="30" rows="10" placeholder="Sua textarea..."&gt;&lt;/textarea&gt;<br>	&lt;/fieldset&gt;<br>&lt;/form&gt;
+					</pre>
+				</div>
+
+				<!-- Tabelas -->
+				<header class="larg-full">
+					<hgroup>
+						<h2 id="tabelas" class="larger">Tabelas</h2>
+					</hgroup>
+				</header>
+				<table class="larg-16">
+					<thead>
+						<tr>
+							<th>Lorem</th>
+							<th>Lorem</th>
+							<th>Lorem</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Lorem</td>
+							<td>Lorem</td>
+							<td>Lorem</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<!-- Tipografia -->
+				<header class="larg-full">
+					<hgroup>
+						<h2 id="tipos" class="larger">Tipografia</h2>
+					</hgroup>
+				</header>
+
+				<!-- Ícones -->
+				<header class="larg-full">
+					<hgroup>
+						<h2 id="icones" class="larger">Ícones</h2>
+					</hgroup>
+				</header>
+
+				<!-- Imagens -->
+				<header class="larg-full">
+					<hgroup>
+						<h2 id="imagens" class="larger">Imagens</h2>
+					</hgroup>
+				</header>
 			</div>
 		</div>
 		<footer>
