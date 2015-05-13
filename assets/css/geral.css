@@ -99,8 +99,12 @@ h4{
 }
 
 p{
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	line-height: 1.2em;
 	font-size: 1em;
-	padding: 0.5em 0;
+	padding: 0.8em 0;
+	float: left;
+	width: 100%;
 }
 
 /**
@@ -389,6 +393,16 @@ pre{
 	-moz-box-shadow: inset 0px 0px 76px -19px rgba(0,0,0,0.25);
 	box-shadow: inset 0px 0px 76px -19px rgba(0,0,0,0.25);
 }
+
+
+
+/**
+ * ----------------------------------------
+ * Slider
+ * ----------------------------------------
+ */
+
+
 
 /**
  * ----------------------------------------

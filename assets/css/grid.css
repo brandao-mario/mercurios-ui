@@ -9,14 +9,6 @@
 	float: left;
 	width: 100%;
 	text-align: center;
-	/*background: #F1F5F5;*/
-}
-
-.outer{
-	background: #ecf0f1;
-	float: left;
-	width: 100%;
-	/* Para planos de fundo em 100% */
 }
 
 .wrapper{
@@ -26,7 +18,7 @@
 	margin: 0 auto;
 }
 
-[class*="larg-"]{
+[class*="wid-"]{
 	margin: 0.5em 0.5%;
 	padding: 0.5em 1%;
 	float: left;
@@ -35,71 +27,71 @@
 	background: #FEFEFE;
 }
 
-.larg-1{
+.wid-1{
 	width: 3.25%;
 }
 
-.larg-2{
+.wid-2{
 	width: 9.5%;
 }
 
-.larg-3{
+.wid-3{
 	width: 15.75%;
 }
 
-.larg-4{
+.wid-4{
 	width: 22%;
 }
 
-.larg-5{
+.wid-5{
 	width: 28.25%;
 }
 
-.larg-6{
+.wid-6{
 	width: 34.5%;
 }
 
-.larg-7{
+.wid-7{
 	width: 40.75%;
 }
 
-.larg-8{
+.wid-8{
 	width: 47%;
 }
 
-.larg-9{
+.wid-9{
 	width: 53.25%;
 }
 
-.larg-10{
+.wid-10{
 	width: 59.5%;
 }
 
-.larg-11{
+.wid-11{
 	width: 65.75%;
 }
 
-.larg-12{
+.wid-12{
 	width: 72%;
 }
 
-.larg-13{
+.wid-13{
 	width: 78.25%;
 }
 
-.larg-14{
+.wid-14{
 	width: 84.5%;
 }
 
-.larg-15{
+.wid-15{
 	width: 90.75%;
 }
 
-.larg-16{
+.wid-16{
 	width: 97%;
 }
 
-.larg-full{
+.wid-full{
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -215,36 +207,36 @@
 		margin-left: 0.5%;
 	}
 
-	[class*="sm-larg-"]{
+	[class*="sm-wid-"]{
 		float: left;
 		margin: 1em 1%;
 	}
 
-	.sm-larg-1{
+	.sm-wid-1{
 		width: 12.667%;
 	}
 
-	.sm-larg-2{
+	.sm-wid-2{
 		width: 29.33%;
 	}
 
-	.sm-larg-3{
+	.sm-wid-3{
 		width: 46%;
 	}
 
-	.sm-larg-4{
+	.sm-wid-4{
 		width: 62.67%;
 	}
 
-	.sm-larg-5{
+	.sm-wid-5{
 		width: 79.34%;
 	}
 
-	.sm-larg-6{
+	.sm-wid-6{
 		width: 96%;
 	}
 
-	.sm-larg-full{
+	.sm-wid-full{
 		width: 100%;
 		margin: 0;
 		padding: 0;
