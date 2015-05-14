@@ -75,11 +75,12 @@ table {
 
 body{
 	background: #EF8E7D;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 h1,h2,h3,h4{
 	padding: 0.4em 0;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1{
@@ -99,7 +100,6 @@ h4{
 }
 
 p{
-	font-family: "Helvetica Neue", Arial, sans-serif;
 	line-height: 1.2em;
 	font-size: 1em;
 	padding: 0.8em 0;
@@ -205,35 +205,6 @@ header .larger{
 
 /**
  * ----------------------------------------
- * Floating
- * ----------------------------------------
- */
-
-.float-l{
-	float: left;
-}
-
-.float-r{
-	float: right;
-}
-
-
-/**
- * ----------------------------------------
- * Floating
- * ----------------------------------------
- */
-
-.align-l{
-	text-align: left;
-}
-
-.align-r{
-	text-align: right;
-}
-
-/**
- * ----------------------------------------
  * Cores - Planos de Fundo
  * ----------------------------------------
  */
@@ -334,10 +305,28 @@ header .larger{
 	float: left;
 	cursor: pointer;
 	padding: 15px;
+	height: 20px;
 	margin: 0.5em 1%;
 	color: white;
 	text-decoration: none;
 	background: #3C8DC5;
+
+	-webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.10);
+	-moz-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.10);
+	box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.10);
+
+    opacity: 1;
+
+    -webkit-transition: opacity .2s, box-shadow .8s, -webkit-box-shadow .8s, -moz-box-shadow .8s;
+    transition: opacity .2s, box-shadow .8s, -webkit-box-shadow .8s, -moz-box-shadow .8s;
+}
+
+[class*="btn"]:hover{
+    opacity: .8;
+
+	-webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25);
+	-moz-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25);
+	box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25);
 }
 
 .btn-success{
@@ -395,13 +384,34 @@ pre{
 }
 
 
-
 /**
  * ----------------------------------------
- * Slider
+ * Floating
  * ----------------------------------------
  */
 
+.float-l{
+	float: left;
+}
+
+.float-r{
+	float: right;
+}
+
+
+/**
+ * ----------------------------------------
+ * Alinhando
+ * ----------------------------------------
+ */
+
+.align-l{
+	text-align: left;
+}
+
+.align-r{
+	text-align: right;
+}
 
 
 /**

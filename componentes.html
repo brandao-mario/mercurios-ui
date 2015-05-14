@@ -8,10 +8,12 @@
 	<!-- Folhas de estilo divididas por função -->
 	<link rel="stylesheet" href="assets/css/grid.css">
 	<link rel="stylesheet" href="assets/css/geral.css">
+	<link rel="stylesheet" href="assets/Fonts&Icons/FlatIcon/flaticon.css">
 
 	<!-- Includes -->
 	<link rel="stylesheet" href="assets/modules/slick.js/slick/slick.css">
 	<link rel="stylesheet" href="assets/modules/slick.js/slick/slick-theme.css">
+	<link rel="stylesheet/less" type="text/css" href="assets/custom/componentes.less">
 </head>
 <body>
 	<div class="container">
@@ -33,9 +35,9 @@
 
 		<div class="aside affix outer-nav wid-3 sm-wid-full bg-white">
 			<ol class="navbar">
-				<li><a href="#slider">Slider</a></li>
-				<li><a href="#offset">Offset</a></li>
+				<li><a href="#listas">Listas</a></li>
 				<li><a href="#grid-mobile">Grid Mobile</a></li>
+				<li><a href="#slider">Slider</a></li>
 			</ol>
 		</div>
 
@@ -43,24 +45,19 @@
 			<div class="wid-16">
 				<header>
 					<hgroup>
-						<h2 class="larger" id="slider">Slider</h2>
+						<h2 class="larger" id="listas">Listas</h2>
 					</hgroup>
 				</header>
 				<div class="wid-16">
-					<div class="slider">
-						<img src="assets/img/bg2.jpg" alt="Imagem 1">
-						<img src="assets/img/bg3.jpg" alt="Imagem 2">
-						<img src="assets/img/bg4.jpg" alt="Imagem 3">
-					</div>
-					<p class="align-l">Documentação <a href="http://kenwheeler.github.io/slick/">slick.js</a></p>
-				</div>
-				<header>
-					<hgroup>
-						<h2 class="larger" id="slider">Slider</h2>
-					</hgroup>
-				</header>
-				<div class="wid-16">
-					
+					<ul class="list wid-8 sm-wid-6">
+						<li class="list-header">Sou um título</li>
+						<li>Item <a href="#" class="list-markup wid-1 sm-wid-1"><span class="flaticon-calendar146"></span></a></li>
+						<li class="active">Item</li>
+						<li>Item</li>
+						<a href="#" class="active">Link</a>
+						<a href="#">Link</a>
+						<a href="#">Link</a>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -73,14 +70,5 @@
 <script type="text/javascript" src="assets/modules/less/dist/less.min.js"></script>
 <script type="text/javascript" src="assets/modules/slick.js/slick/slick.min.js"></script>
 <script type="text/javascript" src="assets/modules/mercurios-js/mercurios.js"></script>
-<script type="text/javascript">
-	$(document).ready(function(){
-		$('.slider').slick({
-			infinite: true,
-			dots: true,
-			adaptiveHeight: true,
-			arrows: false
-		});
-	});
-</script>
+<script>less.watch();</script>
 </html>

@@ -26,12 +26,4 @@ $(document).ready(function(){
 	background.sorteia();
 	background.insere();
 
-	// Affix
-	
-	if ($('.affix').y == 0) {
-		$(this).css("position","fixed");
-	} else{
-
-	};
-
 });
